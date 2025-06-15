@@ -1,0 +1,43 @@
+{
+ "name": "@rbxts/shapecast-hitbox",
+ "version": "0.2.4",
+ "main": "src/init.luau",
+ "types": "src/index.d.ts",
+ "description": "A shapecast-centric solution to melee hitboxes on Roblox. Successor to RaycastHitbox",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/exefer/rbxts-shapecast-hitbox.git"
+ },
+ "bugs": {
+  "url": "https://github.com/exefer/rbxts-shapecast-hitbox/issues"
+ },
+ "homepage": "https://github.com/exefer/rbxts-shapecast-hitbox#readme",
+ "scripts": {
+  "test": "exit 0"
+ },
+ "author": "TeamSwordphin",
+ "license": "ISC",
+ "files": [
+  "src/**/*",
+  "!src/**/__tests__/**/*",
+  "!src/**/*.spec.{luau,ts}",
+  "!src/jest.config.luau",
+  "default.project.json"
+ ],
+ "publishConfig": {
+  "access": "public"
+ },
+ "devDependencies": {
+  "@rbxts/compiler-types": "^3.0.0-types.0",
+  "@rbxts/types": "^1.0.813",
+  "@typescript-eslint/eslint-plugin": "^8.9.0",
+  "@typescript-eslint/parser": "^8.9.0",
+  "eslint": "^8.57.1",
+  "eslint-config-prettier": "^9.1.0",
+  "eslint-plugin-prettier": "^5.2.1",
+  "eslint-plugin-roblox-ts": "^0.0.36",
+  "prettier": "^3.3.3",
+  "roblox-ts": "^3.0.0",
+  "typescript": "^5.6.3"
+ }
+}

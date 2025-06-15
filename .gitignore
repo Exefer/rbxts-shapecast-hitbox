@@ -1,10 +1,11 @@
-# Project place file
-/ShapecastHitbox.rbxlx
+/node_modules
+/out
+/include
+*.tsbuildinfo
 
-# Roblox Studio lock files
-/*.rbxlx.lock
-/*.rbxl.
+Packages
+DevPackages
 
-/*.lock
+sourcemap.json
 
-/sourcemap.json
+.env
